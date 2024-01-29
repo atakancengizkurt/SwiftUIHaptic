@@ -8,14 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+ @State private var selection = 0
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView(selection: $selection){
+            UIFeedbackGeneretor()
+                .tabItem {
+                    Label("UIKit", systemImage: "1.circle")
+                }
+                .tag(0)
+            SensoryFeedback()
+                .tabItem {
+                    Label("SwiftUI", systemImage: "2.circle")
+                }
+                .tag(1)
         }
-        .padding()
     }
 }
 

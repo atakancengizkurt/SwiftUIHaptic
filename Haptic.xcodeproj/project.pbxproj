@@ -11,6 +11,8 @@
 		E80EDA142B67964800E9BBCD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80EDA132B67964800E9BBCD /* ContentView.swift */; };
 		E80EDA162B67964900E9BBCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E80EDA152B67964900E9BBCD /* Assets.xcassets */; };
 		E80EDA192B67964900E9BBCD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E80EDA182B67964900E9BBCD /* Preview Assets.xcassets */; };
+		E80EDA202B679BE100E9BBCD /* UIFeedbackGeneretor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80EDA1F2B679BE100E9BBCD /* UIFeedbackGeneretor.swift */; };
+		E80EDA222B67A08D00E9BBCD /* SensoryFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80EDA212B67A08D00E9BBCD /* SensoryFeedback.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		E80EDA132B67964800E9BBCD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E80EDA152B67964900E9BBCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E80EDA182B67964900E9BBCD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E80EDA1F2B679BE100E9BBCD /* UIFeedbackGeneretor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFeedbackGeneretor.swift; sourceTree = "<group>"; };
+		E80EDA212B67A08D00E9BBCD /* SensoryFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensoryFeedback.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				E80EDA112B67964800E9BBCD /* HapticApp.swift */,
 				E80EDA132B67964800E9BBCD /* ContentView.swift */,
+				E80EDA1F2B679BE100E9BBCD /* UIFeedbackGeneretor.swift */,
+				E80EDA212B67A08D00E9BBCD /* SensoryFeedback.swift */,
 				E80EDA152B67964900E9BBCD /* Assets.xcassets */,
 				E80EDA172B67964900E9BBCD /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E80EDA222B67A08D00E9BBCD /* SensoryFeedback.swift in Sources */,
 				E80EDA142B67964800E9BBCD /* ContentView.swift in Sources */,
 				E80EDA122B67964800E9BBCD /* HapticApp.swift in Sources */,
+				E80EDA202B679BE100E9BBCD /* UIFeedbackGeneretor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
